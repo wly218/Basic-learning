@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target demo02_sub[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo01_pub.dir/src/demo01_pub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo02_sub.dir/src/demo02_sub.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable demo01_pub[0m
+[ 75%] Built target demo01_pub
+[100%] [32m[1mLinking CXX executable demo02_sub[0m
+[100%] Built target demo02_sub
+-- Install configuration: ""
+-- Installing: /home/wang/hello/install/topic/lib/topic/demo01_pub
+-- Set runtime path of "/home/wang/hello/install/topic/lib/topic/demo01_pub" to ""
+-- Installing: /home/wang/hello/install/topic/lib/topic/demo02_sub
+-- Set runtime path of "/home/wang/hello/install/topic/lib/topic/demo02_sub" to ""
+-- Up-to-date: /home/wang/hello/install/topic/share/ament_index/resource_index/package_run_dependencies/topic
+-- Up-to-date: /home/wang/hello/install/topic/share/ament_index/resource_index/parent_prefix_path/topic
+-- Up-to-date: /home/wang/hello/install/topic/share/topic/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wang/hello/install/topic/share/topic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wang/hello/install/topic/share/topic/environment/path.sh
+-- Up-to-date: /home/wang/hello/install/topic/share/topic/environment/path.dsv
+-- Up-to-date: /home/wang/hello/install/topic/share/topic/local_setup.bash
+-- Up-to-date: /home/wang/hello/install/topic/share/topic/local_setup.sh
+-- Up-to-date: /home/wang/hello/install/topic/share/topic/local_setup.zsh
+-- Up-to-date: /home/wang/hello/install/topic/share/topic/local_setup.dsv
+-- Installing: /home/wang/hello/install/topic/share/topic/package.dsv
+-- Up-to-date: /home/wang/hello/install/topic/share/ament_index/resource_index/packages/topic
+-- Up-to-date: /home/wang/hello/install/topic/share/topic/cmake/topicConfig.cmake
+-- Up-to-date: /home/wang/hello/install/topic/share/topic/cmake/topicConfig-version.cmake
+-- Up-to-date: /home/wang/hello/install/topic/share/topic/package.xml

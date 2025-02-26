@@ -1,0 +1,72 @@
+[0.009s] Invoking command in '/home/wang/hello/build/action': CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/topic:/home/wang/hello/install/service:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/action -- -j16 -l16
+[0.024s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.114s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.132s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.134s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.138s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.195s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.196s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.383s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.444s] -- Found base_interfaces_demo: 0.0.0 (/home/wang/hello/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.478s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.523s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.523s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/wang/hello/src/action/include>
+[0.523s] -- Configured cppcheck exclude dirs and/or files: 
+[0.523s] -- Added test 'lint_cmake' to check CMake code style
+[0.523s] -- Added test 'uncrustify' to check C / C++ code style
+[0.524s] -- Configured uncrustify additional arguments: 
+[0.524s] -- Added test 'xmllint' to check XML markup files
+[0.524s] -- Configuring done
+[0.530s] -- Generating done
+[0.531s] -- Build files have been written to: /home/wang/hello/build/action
+[0.554s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[1.980s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.981s]                  from [01m[K/home/wang/hello/src/action/src/demo01_server.cpp:1[m[K:
+[1.981s] [01m[K/home/wang/hello/src/action/src/demo01_server.cpp:[m[K In member function ‘[01m[Kvoid MyActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Process> >)[m[K’:
+[1.981s] [01m[K/home/wang/hello/src/action/src/demo01_server.cpp:57:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kbase_interfaces_demo::action::Process_Feedback_<std::allocator<void> >::_process_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.981s]    57 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"连续反馈中，进度：%.2f"[m[K,[32m[Kfeedback->process[m[K);
+[1.981s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~~~~~~[m[K
+[1.981s]       |                                                                               [32m[K|[m[K
+[1.981s]       |                                                                               [32m[Kbase_interfaces_demo::action::Process_Feedback_<std::allocator<void> >::_process_type {aka long int}[m[K
+[1.981s] [01m[K/home/wang/hello/src/action/src/demo01_server.cpp:57:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.981s]    57 |             RCLCPP_INFO(this->get_logger(),"连续反馈中，进度：[01;36m[K%.2f[m[K",feedback->process);
+[1.981s]       |                                                               [01;36m[K~~~^[m[K
+[1.981s]       |                                                                  [01;36m[K|[m[K
+[1.981s]       |                                                                  [01;36m[Kdouble[m[K
+[1.981s]       |                                                               [32m[K%.2ld[m[K
+[2.368s] [100%] [32m[1mLinking CXX executable demo01_server[0m
+[2.456s] [100%] Built target demo01_server
+[2.463s] Invoked command in '/home/wang/hello/build/action' returned '0': CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/topic:/home/wang/hello/install/service:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/action -- -j16 -l16
+[2.482s] Invoking command in '/home/wang/hello/build/action': CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/topic:/home/wang/hello/install/service:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/action
+[2.486s] -- Install configuration: ""
+[2.486s] -- Installing: /home/wang/hello/install/action/lib/action/demo01_server
+[2.486s] -- Set runtime path of "/home/wang/hello/install/action/lib/action/demo01_server" to ""
+[2.487s] -- Installing: /home/wang/hello/install/action/share/ament_index/resource_index/package_run_dependencies/action
+[2.487s] -- Installing: /home/wang/hello/install/action/share/ament_index/resource_index/parent_prefix_path/action
+[2.487s] -- Installing: /home/wang/hello/install/action/share/action/environment/ament_prefix_path.sh
+[2.487s] -- Installing: /home/wang/hello/install/action/share/action/environment/ament_prefix_path.dsv
+[2.487s] -- Installing: /home/wang/hello/install/action/share/action/environment/path.sh
+[2.487s] -- Installing: /home/wang/hello/install/action/share/action/environment/path.dsv
+[2.487s] -- Installing: /home/wang/hello/install/action/share/action/local_setup.bash
+[2.488s] -- Installing: /home/wang/hello/install/action/share/action/local_setup.sh
+[2.488s] -- Installing: /home/wang/hello/install/action/share/action/local_setup.zsh
+[2.488s] -- Installing: /home/wang/hello/install/action/share/action/local_setup.dsv
+[2.488s] -- Installing: /home/wang/hello/install/action/share/action/package.dsv
+[2.488s] -- Installing: /home/wang/hello/install/action/share/ament_index/resource_index/packages/action
+[2.489s] -- Installing: /home/wang/hello/install/action/share/action/cmake/actionConfig.cmake
+[2.489s] -- Installing: /home/wang/hello/install/action/share/action/cmake/actionConfig-version.cmake
+[2.489s] -- Installing: /home/wang/hello/install/action/share/action/package.xml
+[2.490s] Invoked command in '/home/wang/hello/build/action' returned '0': CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/topic:/home/wang/hello/install/service:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/action

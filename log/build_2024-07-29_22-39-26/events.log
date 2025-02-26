@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000290] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000377] (topic) JobQueued: {'identifier': 'topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/wang/hello/install/base_interfaces_demo')])}
+[0.000394] (topic) JobStarted: {'identifier': 'topic'}
+[0.006067] (topic) JobProgress: {'identifier': 'topic', 'progress': 'cmake'}
+[0.006488] (topic) JobProgress: {'identifier': 'topic', 'progress': 'build'}
+[0.006912] (topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wang/hello/build/topic', '--', '-j16', '-l16'], 'cwd': '/home/wang/hello/build/topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'wang'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wang/hello/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1057'), ('SYSTEMD_EXEC_PID', '1219'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1809'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wang/hello/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wang'), ('JOURNAL_STREAM', '8:37013'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wang-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1195,unix/wang-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1195'), ('INVOCATION_ID', 'e9ff3eb9574f44e0b960689618e35a0a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6P7QR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wang/hello/install/topic:/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wang/hello/build/topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wang/hello/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/topic:/opt/ros/humble')]), 'shell': False}
+[0.032487] (topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_sub\x1b[0m\n'}
+[0.040228] (topic) StdoutLine: {'line': b'[ 50%] Built target demo01_pub\n'}
+[0.043039] (topic) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo02_sub.dir/src/demo02_sub.cpp.o\x1b[0m\n'}
+[0.099938] (-) TimerEvent: {}
+[0.200344] (-) TimerEvent: {}
+[0.300755] (-) TimerEvent: {}
+[0.401156] (-) TimerEvent: {}
+[0.501566] (-) TimerEvent: {}
+[0.601943] (-) TimerEvent: {}
+[0.702359] (-) TimerEvent: {}
+[0.802785] (-) TimerEvent: {}
+[0.903209] (-) TimerEvent: {}
+[1.003637] (-) TimerEvent: {}
+[1.104063] (-) TimerEvent: {}
+[1.204485] (-) TimerEvent: {}
+[1.304910] (-) TimerEvent: {}
+[1.405333] (-) TimerEvent: {}
+[1.505760] (-) TimerEvent: {}
+[1.606062] (-) TimerEvent: {}
+[1.706482] (-) TimerEvent: {}
+[1.806914] (-) TimerEvent: {}
+[1.907340] (-) TimerEvent: {}
+[2.007763] (-) TimerEvent: {}
+[2.108176] (-) TimerEvent: {}
+[2.208604] (-) TimerEvent: {}
+[2.309049] (-) TimerEvent: {}
+[2.409463] (-) TimerEvent: {}
+[2.509827] (-) TimerEvent: {}
+[2.610150] (-) TimerEvent: {}
+[2.710442] (-) TimerEvent: {}
+[2.810857] (-) TimerEvent: {}
+[2.911303] (-) TimerEvent: {}
+[3.011607] (-) TimerEvent: {}
+[3.112035] (-) TimerEvent: {}
+[3.212453] (-) TimerEvent: {}
+[3.312871] (-) TimerEvent: {}
+[3.413284] (-) TimerEvent: {}
+[3.513697] (-) TimerEvent: {}
+[3.614056] (-) TimerEvent: {}
+[3.714459] (-) TimerEvent: {}
+[3.814858] (-) TimerEvent: {}
+[3.915280] (-) TimerEvent: {}
+[4.015695] (-) TimerEvent: {}
+[4.116102] (-) TimerEvent: {}
+[4.216537] (-) TimerEvent: {}
+[4.316948] (-) TimerEvent: {}
+[4.417358] (-) TimerEvent: {}
+[4.517881] (-) TimerEvent: {}
+[4.618133] (-) TimerEvent: {}
+[4.718379] (-) TimerEvent: {}
+[4.818644] (-) TimerEvent: {}
+[4.918998] (-) TimerEvent: {}
+[5.019331] (-) TimerEvent: {}
+[5.092780] (topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo02_sub\x1b[0m\n'}
+[5.119530] (-) TimerEvent: {}
+[5.219877] (-) TimerEvent: {}
+[5.320233] (-) TimerEvent: {}
+[5.331996] (topic) StdoutLine: {'line': b'[100%] Built target demo02_sub\n'}
+[5.340039] (topic) CommandEnded: {'returncode': 0}
+[5.359241] (topic) JobProgress: {'identifier': 'topic', 'progress': 'install'}
+[5.368573] (topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wang/hello/build/topic'], 'cwd': '/home/wang/hello/build/topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'wang'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wang/hello/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1057'), ('SYSTEMD_EXEC_PID', '1219'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1809'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wang/hello/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wang'), ('JOURNAL_STREAM', '8:37013'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wang-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1195,unix/wang-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1195'), ('INVOCATION_ID', 'e9ff3eb9574f44e0b960689618e35a0a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6P7QR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wang/hello/install/topic:/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wang/hello/build/topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wang/hello/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/topic:/opt/ros/humble')]), 'shell': False}
+[5.377876] (topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.378128] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/lib/topic/demo01_pub\n'}
+[5.378303] (topic) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/topic/lib/topic/demo02_sub\n'}
+[5.381488] (topic) StdoutLine: {'line': b'-- Set runtime path of "/home/wang/hello/install/topic/lib/topic/demo02_sub" to ""\n'}
+[5.381697] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/ament_index/resource_index/package_run_dependencies/topic\n'}
+[5.381803] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/ament_index/resource_index/parent_prefix_path/topic\n'}
+[5.382013] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/topic/environment/ament_prefix_path.sh\n'}
+[5.382121] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/topic/environment/ament_prefix_path.dsv\n'}
+[5.382211] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/topic/environment/path.sh\n'}
+[5.382297] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/topic/environment/path.dsv\n'}
+[5.382379] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/topic/local_setup.bash\n'}
+[5.382927] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/topic/local_setup.sh\n'}
+[5.383000] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/topic/local_setup.zsh\n'}
+[5.383401] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/topic/local_setup.dsv\n'}
+[5.383439] (topic) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/topic/share/topic/package.dsv\n'}
+[5.383476] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/ament_index/resource_index/packages/topic\n'}
+[5.383511] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/topic/cmake/topicConfig.cmake\n'}
+[5.383545] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/topic/cmake/topicConfig-version.cmake\n'}
+[5.383606] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/topic/share/topic/package.xml\n'}
+[5.383811] (topic) CommandEnded: {'returncode': 0}
+[5.412257] (topic) JobEnded: {'identifier': 'topic', 'rc': 0}
+[5.412693] (-) EventReactorShutdown: {}

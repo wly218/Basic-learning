@@ -1,0 +1,4 @@
+Invoking command in '/home/wang/hello/build/param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/param -- -j16 -l16
+Invoked command in '/home/wang/hello/build/param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/param -- -j16 -l16
+Invoking command in '/home/wang/hello/build/param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/param
+Invoked command in '/home/wang/hello/build/param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/param

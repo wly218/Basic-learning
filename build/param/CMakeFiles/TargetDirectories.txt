@@ -1,0 +1,11 @@
+/home/wang/hello/build/param/CMakeFiles/uninstall.dir
+/home/wang/hello/build/param/CMakeFiles/param_uninstall.dir
+/home/wang/hello/build/param/CMakeFiles/demo_param.dir
+/home/wang/hello/build/param/CMakeFiles/demo02_param_client.dir
+/home/wang/hello/build/param/CMakeFiles/test.dir
+/home/wang/hello/build/param/CMakeFiles/edit_cache.dir
+/home/wang/hello/build/param/CMakeFiles/rebuild_cache.dir
+/home/wang/hello/build/param/CMakeFiles/list_install_components.dir
+/home/wang/hello/build/param/CMakeFiles/install.dir
+/home/wang/hello/build/param/CMakeFiles/install/local.dir
+/home/wang/hello/build/param/CMakeFiles/install/strip.dir

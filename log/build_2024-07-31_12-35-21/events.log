@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000251] (-) JobUnselected: {'identifier': 'service'}
+[0.000264] (-) JobUnselected: {'identifier': 'topic'}
+[0.000362] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+#request
+int32 num1
+int32 num2
+---
+#response
+int32 num

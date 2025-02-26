@@ -1,0 +1,4 @@
+Invoking command in '/home/wang/hello/build/topic': CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/topic:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/topic -- -j16 -l16
+Invoked command in '/home/wang/hello/build/topic' returned '0': CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/topic:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/topic -- -j16 -l16
+Invoking command in '/home/wang/hello/build/topic': CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/topic:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/topic
+Invoked command in '/home/wang/hello/build/topic' returned '0': CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/topic:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/topic

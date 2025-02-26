@@ -1,0 +1,11 @@
+/home/wang/hello/build/action/CMakeFiles/uninstall.dir
+/home/wang/hello/build/action/CMakeFiles/action_uninstall.dir
+/home/wang/hello/build/action/CMakeFiles/demo01_server.dir
+/home/wang/hello/build/action/CMakeFiles/demo02_client.dir
+/home/wang/hello/build/action/CMakeFiles/test.dir
+/home/wang/hello/build/action/CMakeFiles/edit_cache.dir
+/home/wang/hello/build/action/CMakeFiles/rebuild_cache.dir
+/home/wang/hello/build/action/CMakeFiles/list_install_components.dir
+/home/wang/hello/build/action/CMakeFiles/install.dir
+/home/wang/hello/build/action/CMakeFiles/install/local.dir
+/home/wang/hello/build/action/CMakeFiles/install/strip.dir

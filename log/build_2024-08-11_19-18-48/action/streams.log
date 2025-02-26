@@ -1,0 +1,32 @@
+[0.010s] Invoking command in '/home/wang/hello/build/action': AMENT_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/hello/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/hello/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wang/hello/build/action -- -j16 -l16
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target demo02_client[0m
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[0.073s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[2.512s] [ 75%] [32m[1mLinking CXX executable demo01_server[0m
+[2.622s] [100%] [32m[1mLinking CXX executable demo02_client[0m
+[2.658s] [100%] Built target demo01_server
+[2.744s] [100%] Built target demo02_client
+[2.751s] Invoked command in '/home/wang/hello/build/action' returned '0': AMENT_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/hello/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/hello/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wang/hello/build/action -- -j16 -l16
+[2.775s] Invoking command in '/home/wang/hello/build/action': AMENT_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/hello/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/hello/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wang/hello/build/action
+[2.784s] -- Install configuration: ""
+[2.785s] -- Installing: /home/wang/hello/install/action/lib/action/demo01_server
+[2.786s] -- Set runtime path of "/home/wang/hello/install/action/lib/action/demo01_server" to ""
+[2.786s] -- Installing: /home/wang/hello/install/action/lib/action/demo02_client
+[2.787s] -- Set runtime path of "/home/wang/hello/install/action/lib/action/demo02_client" to ""
+[2.787s] -- Up-to-date: /home/wang/hello/install/action/share/ament_index/resource_index/package_run_dependencies/action
+[2.788s] -- Up-to-date: /home/wang/hello/install/action/share/ament_index/resource_index/parent_prefix_path/action
+[2.788s] -- Up-to-date: /home/wang/hello/install/action/share/action/environment/ament_prefix_path.sh
+[2.788s] -- Up-to-date: /home/wang/hello/install/action/share/action/environment/ament_prefix_path.dsv
+[2.788s] -- Up-to-date: /home/wang/hello/install/action/share/action/environment/path.sh
+[2.788s] -- Up-to-date: /home/wang/hello/install/action/share/action/environment/path.dsv
+[2.788s] -- Up-to-date: /home/wang/hello/install/action/share/action/local_setup.bash
+[2.788s] -- Up-to-date: /home/wang/hello/install/action/share/action/local_setup.sh
+[2.788s] -- Up-to-date: /home/wang/hello/install/action/share/action/local_setup.zsh
+[2.788s] -- Up-to-date: /home/wang/hello/install/action/share/action/local_setup.dsv
+[2.788s] -- Installing: /home/wang/hello/install/action/share/action/package.dsv
+[2.788s] -- Up-to-date: /home/wang/hello/install/action/share/ament_index/resource_index/packages/action
+[2.789s] -- Up-to-date: /home/wang/hello/install/action/share/action/cmake/actionConfig.cmake
+[2.789s] -- Up-to-date: /home/wang/hello/install/action/share/action/cmake/actionConfig-version.cmake
+[2.789s] -- Up-to-date: /home/wang/hello/install/action/share/action/package.xml
+[2.790s] Invoked command in '/home/wang/hello/build/action' returned '0': AMENT_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/hello/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/hello/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wang/hello/build/action

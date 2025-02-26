@@ -1,0 +1,10 @@
+/home/wang/hello/build/polygon_base/CMakeFiles/uninstall.dir
+/home/wang/hello/build/polygon_base/CMakeFiles/polygon_base_uninstall.dir
+/home/wang/hello/build/polygon_base/CMakeFiles/area_node.dir
+/home/wang/hello/build/polygon_base/CMakeFiles/test.dir
+/home/wang/hello/build/polygon_base/CMakeFiles/edit_cache.dir
+/home/wang/hello/build/polygon_base/CMakeFiles/rebuild_cache.dir
+/home/wang/hello/build/polygon_base/CMakeFiles/list_install_components.dir
+/home/wang/hello/build/polygon_base/CMakeFiles/install.dir
+/home/wang/hello/build/polygon_base/CMakeFiles/install/local.dir
+/home/wang/hello/build/polygon_base/CMakeFiles/install/strip.dir

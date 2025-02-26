@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from base_interfaces_demo/action/Process.action
+// generated code does not contain a copyright notice
+
+
+module base_interfaces_demo {
+  module action {
+    struct Process_Goal {
+      int64 num;
+    };
+    struct Process_Result {
+      int64 sum;
+    };
+    struct Process_Feedback {
+      double process;
+    };
+  };
+};

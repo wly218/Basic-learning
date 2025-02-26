@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/wang/hello/build/param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/param -- -j16 -l16
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target demo_param[0m
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_param.dir/src/demo_param.cpp.o[0m
+[1.893s] [100%] [32m[1mLinking CXX executable demo_param[0m
+[1.984s] [100%] Built target demo_param
+[1.995s] Invoked command in '/home/wang/hello/build/param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/param -- -j16 -l16
+[2.039s] Invoking command in '/home/wang/hello/build/param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/param
+[2.049s] -- Install configuration: ""
+[2.049s] -- Installing: /home/wang/hello/install/param/lib/param/demo_param
+[2.050s] -- Set runtime path of "/home/wang/hello/install/param/lib/param/demo_param" to ""
+[2.050s] -- Up-to-date: /home/wang/hello/install/param/share/ament_index/resource_index/package_run_dependencies/param
+[2.050s] -- Up-to-date: /home/wang/hello/install/param/share/ament_index/resource_index/parent_prefix_path/param
+[2.050s] -- Up-to-date: /home/wang/hello/install/param/share/param/environment/ament_prefix_path.sh
+[2.050s] -- Up-to-date: /home/wang/hello/install/param/share/param/environment/ament_prefix_path.dsv
+[2.050s] -- Up-to-date: /home/wang/hello/install/param/share/param/environment/path.sh
+[2.051s] -- Up-to-date: /home/wang/hello/install/param/share/param/environment/path.dsv
+[2.051s] -- Up-to-date: /home/wang/hello/install/param/share/param/local_setup.bash
+[2.051s] -- Up-to-date: /home/wang/hello/install/param/share/param/local_setup.sh
+[2.051s] -- Up-to-date: /home/wang/hello/install/param/share/param/local_setup.zsh
+[2.051s] -- Up-to-date: /home/wang/hello/install/param/share/param/local_setup.dsv
+[2.051s] -- Installing: /home/wang/hello/install/param/share/param/package.dsv
+[2.051s] -- Up-to-date: /home/wang/hello/install/param/share/ament_index/resource_index/packages/param
+[2.051s] -- Up-to-date: /home/wang/hello/install/param/share/param/cmake/paramConfig.cmake
+[2.051s] -- Up-to-date: /home/wang/hello/install/param/share/param/cmake/paramConfig-version.cmake
+[2.051s] -- Up-to-date: /home/wang/hello/install/param/share/param/package.xml
+[2.053s] Invoked command in '/home/wang/hello/build/param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/param

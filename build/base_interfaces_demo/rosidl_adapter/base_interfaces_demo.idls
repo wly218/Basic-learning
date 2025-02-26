@@ -1,0 +1,3 @@
+/home/wang/hello/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:msg/Student.idl
+/home/wang/hello/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:srv/Addint.idl
+/home/wang/hello/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:action/Process.idl

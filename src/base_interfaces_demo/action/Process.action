@@ -1,0 +1,8 @@
+#goal
+int64 num
+---
+#result
+int64 sum
+---
+#progress
+float64 process

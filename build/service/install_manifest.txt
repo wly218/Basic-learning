@@ -1,0 +1,17 @@
+/home/wang/hello/install/service/lib/service/demo01_pub
+/home/wang/hello/install/service/lib/service/demo02_client
+/home/wang/hello/install/service/share/ament_index/resource_index/package_run_dependencies/service
+/home/wang/hello/install/service/share/ament_index/resource_index/parent_prefix_path/service
+/home/wang/hello/install/service/share/service/environment/ament_prefix_path.sh
+/home/wang/hello/install/service/share/service/environment/ament_prefix_path.dsv
+/home/wang/hello/install/service/share/service/environment/path.sh
+/home/wang/hello/install/service/share/service/environment/path.dsv
+/home/wang/hello/install/service/share/service/local_setup.bash
+/home/wang/hello/install/service/share/service/local_setup.sh
+/home/wang/hello/install/service/share/service/local_setup.zsh
+/home/wang/hello/install/service/share/service/local_setup.dsv
+/home/wang/hello/install/service/share/service/package.dsv
+/home/wang/hello/install/service/share/ament_index/resource_index/packages/service
+/home/wang/hello/install/service/share/service/cmake/serviceConfig.cmake
+/home/wang/hello/install/service/share/service/cmake/serviceConfig-version.cmake
+/home/wang/hello/install/service/share/service/package.xml

@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/wang/hello/build/action': CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/action:/home/wang/hello/install/topic:/home/wang/hello/install/service:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/action -- -j16 -l16
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[1.882s] [100%] [32m[1mLinking CXX executable demo01_server[0m
+[1.956s] [100%] Built target demo01_server
+[1.964s] Invoked command in '/home/wang/hello/build/action' returned '0': CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/action:/home/wang/hello/install/topic:/home/wang/hello/install/service:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/action -- -j16 -l16
+[1.986s] Invoking command in '/home/wang/hello/build/action': CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/action:/home/wang/hello/install/topic:/home/wang/hello/install/service:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/action
+[1.990s] -- Install configuration: ""
+[1.990s] -- Installing: /home/wang/hello/install/action/lib/action/demo01_server
+[1.991s] -- Set runtime path of "/home/wang/hello/install/action/lib/action/demo01_server" to ""
+[1.991s] -- Up-to-date: /home/wang/hello/install/action/share/ament_index/resource_index/package_run_dependencies/action
+[1.991s] -- Up-to-date: /home/wang/hello/install/action/share/ament_index/resource_index/parent_prefix_path/action
+[1.991s] -- Up-to-date: /home/wang/hello/install/action/share/action/environment/ament_prefix_path.sh
+[1.991s] -- Up-to-date: /home/wang/hello/install/action/share/action/environment/ament_prefix_path.dsv
+[1.991s] -- Up-to-date: /home/wang/hello/install/action/share/action/environment/path.sh
+[1.991s] -- Up-to-date: /home/wang/hello/install/action/share/action/environment/path.dsv
+[1.991s] -- Up-to-date: /home/wang/hello/install/action/share/action/local_setup.bash
+[1.991s] -- Up-to-date: /home/wang/hello/install/action/share/action/local_setup.sh
+[1.991s] -- Up-to-date: /home/wang/hello/install/action/share/action/local_setup.zsh
+[1.991s] -- Up-to-date: /home/wang/hello/install/action/share/action/local_setup.dsv
+[1.992s] -- Installing: /home/wang/hello/install/action/share/action/package.dsv
+[1.992s] -- Up-to-date: /home/wang/hello/install/action/share/ament_index/resource_index/packages/action
+[1.992s] -- Up-to-date: /home/wang/hello/install/action/share/action/cmake/actionConfig.cmake
+[1.992s] -- Up-to-date: /home/wang/hello/install/action/share/action/cmake/actionConfig-version.cmake
+[1.992s] -- Up-to-date: /home/wang/hello/install/action/share/action/package.xml
+[1.993s] Invoked command in '/home/wang/hello/build/action' returned '0': CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/home/wang/hello/install/action:/home/wang/hello/install/topic:/home/wang/hello/install/service:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/action

@@ -1,0 +1,32 @@
+[0.010s] Invoking command in '/home/wang/hello/build/topic': AMENT_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/hello/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/hello/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wang/hello/build/topic -- -j16 -l16
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target demo02_sub[0m
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target demo01_pub[0m
+[0.059s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_sub.dir/src/demo02_sub.cpp.o[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_pub.dir/src/demo01_pub.cpp.o[0m
+[2.830s] [ 75%] [32m[1mLinking CXX executable demo01_pub[0m
+[2.963s] [ 75%] Built target demo01_pub
+[5.203s] [100%] [32m[1mLinking CXX executable demo02_sub[0m
+[5.435s] [100%] Built target demo02_sub
+[5.442s] Invoked command in '/home/wang/hello/build/topic' returned '0': AMENT_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/hello/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/hello/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wang/hello/build/topic -- -j16 -l16
+[5.466s] Invoking command in '/home/wang/hello/build/topic': AMENT_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/hello/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/hello/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wang/hello/build/topic
+[5.470s] -- Install configuration: ""
+[5.471s] -- Installing: /home/wang/hello/install/topic/lib/topic/demo01_pub
+[5.472s] -- Set runtime path of "/home/wang/hello/install/topic/lib/topic/demo01_pub" to ""
+[5.472s] -- Installing: /home/wang/hello/install/topic/lib/topic/demo02_sub
+[5.474s] -- Set runtime path of "/home/wang/hello/install/topic/lib/topic/demo02_sub" to ""
+[5.474s] -- Up-to-date: /home/wang/hello/install/topic/share/ament_index/resource_index/package_run_dependencies/topic
+[5.475s] -- Up-to-date: /home/wang/hello/install/topic/share/ament_index/resource_index/parent_prefix_path/topic
+[5.475s] -- Up-to-date: /home/wang/hello/install/topic/share/topic/environment/ament_prefix_path.sh
+[5.475s] -- Up-to-date: /home/wang/hello/install/topic/share/topic/environment/ament_prefix_path.dsv
+[5.475s] -- Up-to-date: /home/wang/hello/install/topic/share/topic/environment/path.sh
+[5.475s] -- Up-to-date: /home/wang/hello/install/topic/share/topic/environment/path.dsv
+[5.475s] -- Up-to-date: /home/wang/hello/install/topic/share/topic/local_setup.bash
+[5.475s] -- Up-to-date: /home/wang/hello/install/topic/share/topic/local_setup.sh
+[5.476s] -- Up-to-date: /home/wang/hello/install/topic/share/topic/local_setup.zsh
+[5.476s] -- Up-to-date: /home/wang/hello/install/topic/share/topic/local_setup.dsv
+[5.476s] -- Installing: /home/wang/hello/install/topic/share/topic/package.dsv
+[5.476s] -- Up-to-date: /home/wang/hello/install/topic/share/ament_index/resource_index/packages/topic
+[5.477s] -- Up-to-date: /home/wang/hello/install/topic/share/topic/cmake/topicConfig.cmake
+[5.477s] -- Up-to-date: /home/wang/hello/install/topic/share/topic/cmake/topicConfig-version.cmake
+[5.477s] -- Up-to-date: /home/wang/hello/install/topic/share/topic/package.xml
+[5.477s] Invoked command in '/home/wang/hello/build/topic' returned '0': AMENT_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/hello/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/hello/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wang/hello/build/topic

@@ -1,0 +1,68 @@
+[0.005s] Invoking command in '/home/wang/hello/build/topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wang/hello/src/topic -DCMAKE_INSTALL_PREFIX=/home/wang/hello/install/topic
+[0.111s] -- The C compiler identification is GNU 11.4.0
+[0.187s] -- The CXX compiler identification is GNU 11.4.0
+[0.193s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.243s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.247s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.308s] -- Detecting CXX compile features
+[0.309s] -- Detecting CXX compile features - done
+[0.312s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.424s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.484s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.515s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.519s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.525s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.549s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.598s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.600s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.663s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.679s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.706s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.713s] -- Looking for pthread.h
+[0.780s] -- Looking for pthread.h - found
+[0.780s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.845s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.846s] -- Found Threads: TRUE  
+[0.962s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.012s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.012s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/wang/hello/src/topic/include>
+[1.012s] -- Configured cppcheck exclude dirs and/or files: 
+[1.012s] -- Added test 'lint_cmake' to check CMake code style
+[1.013s] -- Added test 'uncrustify' to check C / C++ code style
+[1.013s] -- Configured uncrustify additional arguments: 
+[1.013s] -- Added test 'xmllint' to check XML markup files
+[1.014s] -- Configuring done
+[1.018s] -- Generating done
+[1.019s] -- Build files have been written to: /home/wang/hello/build/topic
+[1.025s] Invoked command in '/home/wang/hello/build/topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wang/hello/src/topic -DCMAKE_INSTALL_PREFIX=/home/wang/hello/install/topic
+[1.026s] Invoking command in '/home/wang/hello/build/topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/topic -- -j16 -l16
+[1.065s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_pub.dir/src/demo01_pub.cpp.o[0m
+[1.101s] [100%] [32m[1mLinking CXX executable demo01_pub[0m
+[1.164s] [100%] Built target demo01_pub
+[1.171s] Invoked command in '/home/wang/hello/build/topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/topic -- -j16 -l16
+[1.191s] Invoking command in '/home/wang/hello/build/topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/topic
+[1.197s] -- Install configuration: ""
+[1.197s] -- Installing: /home/wang/hello/install/topic/lib/topic/demo01_pub
+[1.197s] -- Set runtime path of "/home/wang/hello/install/topic/lib/topic/demo01_pub" to ""
+[1.197s] -- Installing: /home/wang/hello/install/topic/share/ament_index/resource_index/package_run_dependencies/topic
+[1.197s] -- Installing: /home/wang/hello/install/topic/share/ament_index/resource_index/parent_prefix_path/topic
+[1.198s] -- Installing: /home/wang/hello/install/topic/share/topic/environment/ament_prefix_path.sh
+[1.198s] -- Installing: /home/wang/hello/install/topic/share/topic/environment/ament_prefix_path.dsv
+[1.198s] -- Installing: /home/wang/hello/install/topic/share/topic/environment/path.sh
+[1.198s] -- Installing: /home/wang/hello/install/topic/share/topic/environment/path.dsv
+[1.198s] -- Installing: /home/wang/hello/install/topic/share/topic/local_setup.bash
+[1.198s] -- Installing: /home/wang/hello/install/topic/share/topic/local_setup.sh
+[1.198s] -- Installing: /home/wang/hello/install/topic/share/topic/local_setup.zsh
+[1.198s] -- Installing: /home/wang/hello/install/topic/share/topic/local_setup.dsv
+[1.198s] -- Installing: /home/wang/hello/install/topic/share/topic/package.dsv
+[1.198s] -- Installing: /home/wang/hello/install/topic/share/ament_index/resource_index/packages/topic
+[1.198s] -- Installing: /home/wang/hello/install/topic/share/topic/cmake/topicConfig.cmake
+[1.199s] -- Installing: /home/wang/hello/install/topic/share/topic/cmake/topicConfig-version.cmake
+[1.199s] -- Installing: /home/wang/hello/install/topic/share/topic/package.xml
+[1.199s] Invoked command in '/home/wang/hello/build/topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/topic

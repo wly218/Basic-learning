@@ -1,0 +1,17 @@
+/home/wang/hello/install/action/lib/action/demo01_server
+/home/wang/hello/install/action/lib/action/demo02_client
+/home/wang/hello/install/action/share/ament_index/resource_index/package_run_dependencies/action
+/home/wang/hello/install/action/share/ament_index/resource_index/parent_prefix_path/action
+/home/wang/hello/install/action/share/action/environment/ament_prefix_path.sh
+/home/wang/hello/install/action/share/action/environment/ament_prefix_path.dsv
+/home/wang/hello/install/action/share/action/environment/path.sh
+/home/wang/hello/install/action/share/action/environment/path.dsv
+/home/wang/hello/install/action/share/action/local_setup.bash
+/home/wang/hello/install/action/share/action/local_setup.sh
+/home/wang/hello/install/action/share/action/local_setup.zsh
+/home/wang/hello/install/action/share/action/local_setup.dsv
+/home/wang/hello/install/action/share/action/package.dsv
+/home/wang/hello/install/action/share/ament_index/resource_index/packages/action
+/home/wang/hello/install/action/share/action/cmake/actionConfig.cmake
+/home/wang/hello/install/action/share/action/cmake/actionConfig-version.cmake
+/home/wang/hello/install/action/share/action/package.xml

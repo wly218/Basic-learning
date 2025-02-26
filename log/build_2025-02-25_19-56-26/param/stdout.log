@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target demo02_param_client[0m
+[ 50%] Built target demo_param
+[ 75%] [32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable demo02_param_client[0m
+[100%] Built target demo02_param_client
+-- Install configuration: ""
+-- Up-to-date: /home/wang/hello/install/param/lib/param/demo_param
+-- Installing: /home/wang/hello/install/param/lib/param/demo02_param_client
+-- Set runtime path of "/home/wang/hello/install/param/lib/param/demo02_param_client" to ""
+-- Up-to-date: /home/wang/hello/install/param/share/ament_index/resource_index/package_run_dependencies/param
+-- Installing: /home/wang/hello/install/param/share/ament_index/resource_index/parent_prefix_path/param
+-- Up-to-date: /home/wang/hello/install/param/share/param/environment/ament_prefix_path.sh
+-- Installing: /home/wang/hello/install/param/share/param/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wang/hello/install/param/share/param/environment/path.sh
+-- Installing: /home/wang/hello/install/param/share/param/environment/path.dsv
+-- Up-to-date: /home/wang/hello/install/param/share/param/local_setup.bash
+-- Up-to-date: /home/wang/hello/install/param/share/param/local_setup.sh
+-- Up-to-date: /home/wang/hello/install/param/share/param/local_setup.zsh
+-- Installing: /home/wang/hello/install/param/share/param/local_setup.dsv
+-- Installing: /home/wang/hello/install/param/share/param/package.dsv
+-- Up-to-date: /home/wang/hello/install/param/share/ament_index/resource_index/packages/param
+-- Up-to-date: /home/wang/hello/install/param/share/param/cmake/paramConfig.cmake
+-- Up-to-date: /home/wang/hello/install/param/share/param/cmake/paramConfig-version.cmake
+-- Up-to-date: /home/wang/hello/install/param/share/param/package.xml
