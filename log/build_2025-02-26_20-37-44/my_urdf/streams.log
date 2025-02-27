@@ -1,0 +1,52 @@
+[0.006s] Invoking command in '/home/wang/hello/build/my_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wang/hello/src/my_urdf -DCMAKE_INSTALL_PREFIX=/home/wang/hello/install/my_urdf
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.118s] -- The CXX compiler identification is GNU 11.4.0
+[0.123s] -- Detecting C compiler ABI info
+[0.189s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.287s] -- Detecting CXX compiler ABI info - done
+[0.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.293s] -- Detecting CXX compile features
+[0.293s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.403s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.456s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.506s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.506s] -- Added test 'lint_cmake' to check CMake code style
+[0.507s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.508s] -- Added test 'xmllint' to check XML markup files
+[0.508s] -- Configuring done
+[0.509s] -- Generating done
+[0.510s] -- Build files have been written to: /home/wang/hello/build/my_urdf
+[0.513s] Invoked command in '/home/wang/hello/build/my_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wang/hello/src/my_urdf -DCMAKE_INSTALL_PREFIX=/home/wang/hello/install/my_urdf
+[0.515s] Invoking command in '/home/wang/hello/build/my_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/my_urdf -- -j16 -l16
+[0.553s] Invoked command in '/home/wang/hello/build/my_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/my_urdf -- -j16 -l16
+[0.586s] Invoking command in '/home/wang/hello/build/my_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/my_urdf
+[0.593s] -- Install configuration: ""
+[0.593s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/launch
+[0.593s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/launch/display.launch.py
+[0.593s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/urdf
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/urdf/xacro
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/urdf/urdf
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/urdf/urdf/helloworld.urdf
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/rviz
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/meshes
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/ament_index/resource_index/package_run_dependencies/my_urdf
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/ament_index/resource_index/parent_prefix_path/my_urdf
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/environment/ament_prefix_path.sh
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/environment/ament_prefix_path.dsv
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/environment/path.sh
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/environment/path.dsv
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/local_setup.bash
+[0.594s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/local_setup.sh
+[0.595s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/local_setup.zsh
+[0.595s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/local_setup.dsv
+[0.595s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/package.dsv
+[0.595s] -- Installing: /home/wang/hello/install/my_urdf/share/ament_index/resource_index/packages/my_urdf
+[0.595s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/cmake/my_urdfConfig.cmake
+[0.595s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/cmake/my_urdfConfig-version.cmake
+[0.595s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/package.xml
+[0.597s] Invoked command in '/home/wang/hello/build/my_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/my_urdf

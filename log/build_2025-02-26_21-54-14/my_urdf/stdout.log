@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/launch
+-- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/launch/display.launch.py
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/urdf
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/urdf/xacro
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/urdf/urdf
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/urdf/urdf/helloworld.urdf
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/rviz
+-- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/rviz/urdf.rviz
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/meshes
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/ament_index/resource_index/package_run_dependencies/my_urdf
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/ament_index/resource_index/parent_prefix_path/my_urdf
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/environment/path.sh
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/environment/path.dsv
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/local_setup.bash
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/local_setup.sh
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/local_setup.zsh
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/local_setup.dsv
+-- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/package.dsv
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/ament_index/resource_index/packages/my_urdf
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/cmake/my_urdfConfig.cmake
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/cmake/my_urdfConfig-version.cmake
+-- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/package.xml

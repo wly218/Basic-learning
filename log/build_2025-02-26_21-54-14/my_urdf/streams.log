@@ -1,0 +1,29 @@
+[0.008s] Invoking command in '/home/wang/hello/build/my_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/my_urdf -- -j16 -l16
+[0.044s] Invoked command in '/home/wang/hello/build/my_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/my_urdf -- -j16 -l16
+[0.080s] Invoking command in '/home/wang/hello/build/my_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/my_urdf
+[0.088s] -- Install configuration: ""
+[0.088s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/launch
+[0.088s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/launch/display.launch.py
+[0.088s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/urdf
+[0.088s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/urdf/xacro
+[0.088s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/urdf/urdf
+[0.088s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/urdf/urdf/helloworld.urdf
+[0.088s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/rviz
+[0.088s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/rviz/urdf.rviz
+[0.088s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/meshes
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/ament_index/resource_index/package_run_dependencies/my_urdf
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/ament_index/resource_index/parent_prefix_path/my_urdf
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/environment/ament_prefix_path.sh
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/environment/ament_prefix_path.dsv
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/environment/path.sh
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/environment/path.dsv
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/local_setup.bash
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/local_setup.sh
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/local_setup.zsh
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/local_setup.dsv
+[0.089s] -- Installing: /home/wang/hello/install/my_urdf/share/my_urdf/package.dsv
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/ament_index/resource_index/packages/my_urdf
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/cmake/my_urdfConfig.cmake
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/cmake/my_urdfConfig-version.cmake
+[0.089s] -- Up-to-date: /home/wang/hello/install/my_urdf/share/my_urdf/package.xml
+[0.090s] Invoked command in '/home/wang/hello/build/my_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/my_urdf

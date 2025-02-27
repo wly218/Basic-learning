@@ -1,0 +1,6 @@
+Invoking command in '/home/wang/hello/build/urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wang/hello/src/urdf -DCMAKE_INSTALL_PREFIX=/home/wang/hello/install/urdf
+Invoked command in '/home/wang/hello/build/urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wang/hello/src/urdf -DCMAKE_INSTALL_PREFIX=/home/wang/hello/install/urdf
+Invoking command in '/home/wang/hello/build/urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/urdf -- -j16 -l16
+Invoked command in '/home/wang/hello/build/urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/urdf -- -j16 -l16
+Invoking command in '/home/wang/hello/build/urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/urdf
+Invoked command in '/home/wang/hello/build/urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/urdf

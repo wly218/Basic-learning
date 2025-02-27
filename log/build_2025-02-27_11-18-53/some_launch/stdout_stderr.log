@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/launch
+-- Installing: /home/wang/hello/install/some_launch/share/some_launch/launch/demo03_param.launch.py
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/launch/demo01_node.launch.py
+-- Installing: /home/wang/hello/install/some_launch/share/some_launch/launch/demo02_cmd.launch.py
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/config
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/config/t2.yaml
+-- Up-to-date: /home/wang/hello/install/some_launch/share/ament_index/resource_index/package_run_dependencies/some_launch
+-- Up-to-date: /home/wang/hello/install/some_launch/share/ament_index/resource_index/parent_prefix_path/some_launch
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/environment/path.sh
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/environment/path.dsv
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/local_setup.bash
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/local_setup.sh
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/local_setup.zsh
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/local_setup.dsv
+-- Installing: /home/wang/hello/install/some_launch/share/some_launch/package.dsv
+-- Up-to-date: /home/wang/hello/install/some_launch/share/ament_index/resource_index/packages/some_launch
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/cmake/some_launchConfig.cmake
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/cmake/some_launchConfig-version.cmake
+-- Up-to-date: /home/wang/hello/install/some_launch/share/some_launch/package.xml
