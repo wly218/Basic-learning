@@ -1,0 +1,6 @@
+Invoking command in '/home/wang/hello/build/tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wang/hello/src/tf_listener -DCMAKE_INSTALL_PREFIX=/home/wang/hello/install/tf_listener
+Invoked command in '/home/wang/hello/build/tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wang/hello/src/tf_listener -DCMAKE_INSTALL_PREFIX=/home/wang/hello/install/tf_listener
+Invoking command in '/home/wang/hello/build/tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/tf_listener -- -j16 -l16
+Invoked command in '/home/wang/hello/build/tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/tf_listener -- -j16 -l16
+Invoking command in '/home/wang/hello/build/tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/tf_listener
+Invoked command in '/home/wang/hello/build/tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/tf_listener

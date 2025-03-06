@@ -1,0 +1,2 @@
+Invoking command in '/home/wang/hello/build/tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/tf_broadcaster -- -j16 -l16
+Invoked command in '/home/wang/hello/build/tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/tf_broadcaster -- -j16 -l16

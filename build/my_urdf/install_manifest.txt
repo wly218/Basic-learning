@@ -1,5 +1,11 @@
 /home/wang/hello/install/my_urdf/share/my_urdf/launch/display.launch.py
+/home/wang/hello/install/my_urdf/share/my_urdf/urdf/xacro/car_laser.xacro
+/home/wang/hello/install/my_urdf/share/my_urdf/urdf/xacro/car_base.xacro
+/home/wang/hello/install/my_urdf/share/my_urdf/urdf/xacro/car.urdf.xacro
+/home/wang/hello/install/my_urdf/share/my_urdf/urdf/xacro/car_camera.xacro
 /home/wang/hello/install/my_urdf/share/my_urdf/urdf/urdf/helloworld.urdf
+/home/wang/hello/install/my_urdf/share/my_urdf/urdf/urdf/demo02_car.urdf
+/home/wang/hello/install/my_urdf/share/my_urdf/urdf/urdf/demo01_box.urdf
 /home/wang/hello/install/my_urdf/share/my_urdf/rviz/urdf.rviz
 /home/wang/hello/install/my_urdf/share/ament_index/resource_index/package_run_dependencies/my_urdf
 /home/wang/hello/install/my_urdf/share/ament_index/resource_index/parent_prefix_path/my_urdf

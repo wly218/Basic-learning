@@ -1,0 +1,28 @@
+[0.007s] Invoking command in '/home/wang/hello/build/tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/tf_broadcaster -- -j16 -l16
+[0.048s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o[0m
+[0.053s] [ 75%] Built target demo01_static_tf_broadcaster
+[5.543s] [100%] [32m[1mLinking CXX executable demo02_dynamic_tf_broadcaster[0m
+[5.834s] [100%] Built target demo02_dynamic_tf_broadcaster
+[5.845s] Invoked command in '/home/wang/hello/build/tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/tf_broadcaster -- -j16 -l16
+[5.857s] Invoking command in '/home/wang/hello/build/tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/tf_broadcaster
+[5.868s] -- Install configuration: ""
+[5.868s] -- Installing: /home/wang/hello/install/tf_broadcaster/lib/tf_broadcaster/demo01_static_tf_broadcaster
+[5.868s] -- Set runtime path of "/home/wang/hello/install/tf_broadcaster/lib/tf_broadcaster/demo01_static_tf_broadcaster" to ""
+[5.869s] -- Installing: /home/wang/hello/install/tf_broadcaster/lib/tf_broadcaster/demo02_dynamic_tf_broadcaster
+[5.871s] -- Set runtime path of "/home/wang/hello/install/tf_broadcaster/lib/tf_broadcaster/demo02_dynamic_tf_broadcaster" to ""
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/tf_broadcaster
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/tf_broadcaster
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/environment/ament_prefix_path.sh
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/environment/ament_prefix_path.dsv
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/environment/path.sh
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/environment/path.dsv
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/local_setup.bash
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/local_setup.sh
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/local_setup.zsh
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/local_setup.dsv
+[5.871s] -- Up-to-date: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/package.dsv
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/ament_index/resource_index/packages/tf_broadcaster
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/cmake/tf_broadcasterConfig.cmake
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/cmake/tf_broadcasterConfig-version.cmake
+[5.871s] -- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/package.xml
+[5.873s] Invoked command in '/home/wang/hello/build/tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/tf_broadcaster

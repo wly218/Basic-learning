@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000852] (-) JobUnselected: {'identifier': 'action'}
+[0.000902] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000987] (-) JobUnselected: {'identifier': 'my_urdf'}
+[0.001012] (-) JobUnselected: {'identifier': 'param'}
+[0.001037] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.001060] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.001100] (-) JobUnselected: {'identifier': 'service'}
+[0.001161] (-) JobUnselected: {'identifier': 'some_launch'}
+[0.001191] (-) JobUnselected: {'identifier': 'tf_broadcaster'}
+[0.001244] (-) JobUnselected: {'identifier': 'topic'}
+[0.001282] (tf_listener) JobQueued: {'identifier': 'tf_listener', 'dependencies': OrderedDict()}
+[0.001308] (tf_listener) JobStarted: {'identifier': 'tf_listener'}
+[0.006951] (tf_listener) JobProgress: {'identifier': 'tf_listener', 'progress': 'cmake'}
+[0.007281] (tf_listener) JobProgress: {'identifier': 'tf_listener', 'progress': 'build'}
+[0.007783] (tf_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wang/hello/build/tf_listener', '--', '-j16', '-l16'], 'cwd': '/home/wang/hello/build/tf_listener', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'wang'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wang/hello/install/polygon_plugins/lib:/home/wang/hello/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wang'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wang/hello/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/wang/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-cd29ff8a53692911.txt'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1211'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1641'), ('BUNDLED_DEBUGPY_PATH', '/home/wang/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3672'), ('COLCON_PREFIX_PATH', '/home/wang/hello/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wang'), ('JOURNAL_STREAM', '8:10664'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/wang/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/wang-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1614,unix/wang-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1614'), ('INVOCATION_ID', 'ddc288439d5f44889e55d9cd83044356'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b08e3e5545.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wang/hello/install/tf_listener:/home/wang/hello/install/topic:/home/wang/hello/install/tf_broadcaster:/home/wang/hello/install/some_launch:/home/wang/hello/install/service:/home/wang/hello/install/polygon_plugins:/home/wang/hello/install/polygon_base:/home/wang/hello/install/param:/home/wang/hello/install/my_urdf:/home/wang/hello/install/action:/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wang/hello/build/tf_listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wang/hello/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wang/hello/install/tf_listener:/home/wang/hello/install/topic:/home/wang/hello/install/tf_broadcaster:/home/wang/hello/install/some_launch:/home/wang/hello/install/service:/home/wang/hello/install/polygon_plugins:/home/wang/hello/install/polygon_base:/home/wang/hello/install/param:/home/wang/hello/install/my_urdf:/home/wang/hello/install/action:/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[0.032556] (tf_listener) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100030] (-) TimerEvent: {}
+[0.132435] (tf_listener) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.150544] (tf_listener) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.151995] (tf_listener) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.155746] (tf_listener) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.161890] (tf_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.169929] (tf_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.190596] (tf_listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.191593] (tf_listener) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200098] (-) TimerEvent: {}
+[0.274797] (tf_listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300329] (-) TimerEvent: {}
+[0.305868] (tf_listener) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.316232] (tf_listener) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.371779] (tf_listener) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.382375] (tf_listener) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.383515] (tf_listener) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.383690] (tf_listener) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.387236] (tf_listener) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400569] (-) TimerEvent: {}
+[0.438951] (tf_listener) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.439171] (tf_listener) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/wang/hello/src/tf_listener/include>\n'}
+[0.439269] (tf_listener) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.439460] (tf_listener) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.439775] (tf_listener) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.439908] (tf_listener) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.440035] (tf_listener) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.440391] (tf_listener) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.449133] (tf_listener) StdoutLine: {'line': b'-- Generating done\n'}
+[0.452861] (tf_listener) StdoutLine: {'line': b'-- Build files have been written to: /home/wang/hello/build/tf_listener\n'}
+[0.481160] (tf_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_tf_listener\x1b[0m\n'}
+[0.494634] (tf_listener) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo02_tf_msg_listener.dir/src/demo02_tf_msg_listener.cpp.o\x1b[0m\n'}
+[0.500778] (-) TimerEvent: {}
+[0.501674] (tf_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o\x1b[0m\n'}
+[0.600862] (-) TimerEvent: {}
+[0.701124] (-) TimerEvent: {}
+[0.801378] (-) TimerEvent: {}
+[0.901643] (-) TimerEvent: {}
+[1.001892] (-) TimerEvent: {}
+[1.102172] (-) TimerEvent: {}
+[1.202507] (-) TimerEvent: {}
+[1.302865] (-) TimerEvent: {}
+[1.403106] (-) TimerEvent: {}
+[1.503372] (-) TimerEvent: {}
+[1.603630] (-) TimerEvent: {}
+[1.703905] (-) TimerEvent: {}
+[1.804264] (-) TimerEvent: {}
+[1.904539] (-) TimerEvent: {}
+[2.004849] (-) TimerEvent: {}
+[2.105177] (-) TimerEvent: {}
+[2.205511] (-) TimerEvent: {}
+[2.305842] (-) TimerEvent: {}
+[2.406139] (-) TimerEvent: {}
+[2.506526] (-) TimerEvent: {}
+[2.606849] (-) TimerEvent: {}
+[2.707201] (-) TimerEvent: {}
+[2.807537] (-) TimerEvent: {}
+[2.908006] (-) TimerEvent: {}
+[3.008274] (-) TimerEvent: {}
+[3.108553] (-) TimerEvent: {}
+[3.208836] (-) TimerEvent: {}
+[3.309072] (-) TimerEvent: {}
+[3.409361] (-) TimerEvent: {}
+[3.509719] (-) TimerEvent: {}
+[3.609974] (-) TimerEvent: {}
+[3.710260] (-) TimerEvent: {}
+[3.810524] (-) TimerEvent: {}
+[3.910842] (-) TimerEvent: {}
+[4.011120] (-) TimerEvent: {}
+[4.111411] (-) TimerEvent: {}
+[4.211662] (-) TimerEvent: {}
+[4.311892] (-) TimerEvent: {}
+[4.412114] (-) TimerEvent: {}
+[4.512375] (-) TimerEvent: {}
+[4.612672] (-) TimerEvent: {}
+[4.713044] (-) TimerEvent: {}
+[4.825247] (-) TimerEvent: {}
+[4.925562] (-) TimerEvent: {}
+[5.025886] (-) TimerEvent: {}
+[5.126182] (-) TimerEvent: {}
+[5.226458] (-) TimerEvent: {}
+[5.326764] (-) TimerEvent: {}
+[5.427131] (-) TimerEvent: {}
+[5.527525] (-) TimerEvent: {}
+[5.627919] (-) TimerEvent: {}
+[5.728319] (-) TimerEvent: {}
+[5.828706] (-) TimerEvent: {}
+[5.929124] (-) TimerEvent: {}
+[5.992096] (tf_listener) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo01_tf_listener\x1b[0m\n'}
+[6.029263] (-) TimerEvent: {}
+[6.129682] (-) TimerEvent: {}
+[6.229994] (-) TimerEvent: {}
+[6.274029] (tf_listener) StdoutLine: {'line': b'[ 75%] Built target demo01_tf_listener\n'}
+[6.330117] (-) TimerEvent: {}
+[6.430493] (-) TimerEvent: {}
+[6.485052] (tf_listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo02_tf_msg_listener\x1b[0m\n'}
+[6.530684] (-) TimerEvent: {}
+[6.631013] (-) TimerEvent: {}
+[6.731372] (-) TimerEvent: {}
+[6.801078] (tf_listener) StdoutLine: {'line': b'[100%] Built target demo02_tf_msg_listener\n'}
+[6.811354] (tf_listener) CommandEnded: {'returncode': 0}
+[6.812836] (tf_listener) JobProgress: {'identifier': 'tf_listener', 'progress': 'install'}
+[6.825781] (tf_listener) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wang/hello/build/tf_listener'], 'cwd': '/home/wang/hello/build/tf_listener', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'wang'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wang/hello/install/polygon_plugins/lib:/home/wang/hello/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wang'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wang/hello/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/wang/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-cd29ff8a53692911.txt'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1211'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1641'), ('BUNDLED_DEBUGPY_PATH', '/home/wang/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3672'), ('COLCON_PREFIX_PATH', '/home/wang/hello/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wang'), ('JOURNAL_STREAM', '8:10664'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/wang/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/wang-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1614,unix/wang-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1614'), ('INVOCATION_ID', 'ddc288439d5f44889e55d9cd83044356'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b08e3e5545.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wang/hello/install/tf_listener:/home/wang/hello/install/topic:/home/wang/hello/install/tf_broadcaster:/home/wang/hello/install/some_launch:/home/wang/hello/install/service:/home/wang/hello/install/polygon_plugins:/home/wang/hello/install/polygon_base:/home/wang/hello/install/param:/home/wang/hello/install/my_urdf:/home/wang/hello/install/action:/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wang/hello/build/tf_listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wang/hello/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wang/hello/install/tf_listener:/home/wang/hello/install/topic:/home/wang/hello/install/tf_broadcaster:/home/wang/hello/install/some_launch:/home/wang/hello/install/service:/home/wang/hello/install/polygon_plugins:/home/wang/hello/install/polygon_base:/home/wang/hello/install/param:/home/wang/hello/install/my_urdf:/home/wang/hello/install/action:/home/wang/hello/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[6.831513] (-) TimerEvent: {}
+[6.842260] (tf_listener) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.842525] (tf_listener) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_listener/lib/tf_listener/demo01_tf_listener\n'}
+[6.848424] (tf_listener) StdoutLine: {'line': b'-- Set runtime path of "/home/wang/hello/install/tf_listener/lib/tf_listener/demo01_tf_listener" to ""\n'}
+[6.848703] (tf_listener) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_listener/lib/tf_listener/demo02_tf_msg_listener\n'}
+[6.853784] (tf_listener) StdoutLine: {'line': b'-- Set runtime path of "/home/wang/hello/install/tf_listener/lib/tf_listener/demo02_tf_msg_listener" to ""\n'}
+[6.854003] (tf_listener) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_listener/share/ament_index/resource_index/package_run_dependencies/tf_listener\n'}
+[6.854152] (tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/tf_listener/share/ament_index/resource_index/parent_prefix_path/tf_listener\n'}
+[6.854255] (tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/environment/ament_prefix_path.sh\n'}
+[6.854325] (tf_listener) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_listener/share/tf_listener/environment/ament_prefix_path.dsv\n'}
+[6.854436] (tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/environment/path.sh\n'}
+[6.854502] (tf_listener) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_listener/share/tf_listener/environment/path.dsv\n'}
+[6.854565] (tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/local_setup.bash\n'}
+[6.854624] (tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/local_setup.sh\n'}
+[6.854681] (tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/local_setup.zsh\n'}
+[6.854775] (tf_listener) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_listener/share/tf_listener/local_setup.dsv\n'}
+[6.854869] (tf_listener) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_listener/share/tf_listener/package.dsv\n'}
+[6.854922] (tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/tf_listener/share/ament_index/resource_index/packages/tf_listener\n'}
+[6.854975] (tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/cmake/tf_listenerConfig.cmake\n'}
+[6.855025] (tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/cmake/tf_listenerConfig-version.cmake\n'}
+[6.855080] (tf_listener) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_listener/share/tf_listener/package.xml\n'}
+[6.857129] (tf_listener) CommandEnded: {'returncode': 0}
+[6.873899] (tf_listener) JobEnded: {'identifier': 'tf_listener', 'rc': 0}
+[6.874328] (-) EventReactorShutdown: {}

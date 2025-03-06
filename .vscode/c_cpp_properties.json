@@ -8,8 +8,7 @@
                 "${workspaceFolder}/install/base_interfaces_demo/include/base_interfaces_demo",
                 "${workspaceFolder}/src/polygon_plugins/include",
                 "${workspaceFolder}/src/polygon_base/include",
-                "/opt/ros/humble/include/pluginlib",
-                "/opt/ros/humble/include/class_loader"
+                "/opt/ros/humble/include/message_filters"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

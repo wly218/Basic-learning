@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fc032f0723e7d80364af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tf_broadcaster",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_static_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_static_tf_broadcaster-0a9e58a1a17b43dd138a.json",
+					"name" : "demo01_static_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo02_dynamic_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo02_dynamic_tf_broadcaster-9f72f5a2d0b9d4484dd1.json",
+					"name" : "demo02_dynamic_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo03_point_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo03_point_tf_broadcaster-16ae6ca05c5b547410ad.json",
+					"name" : "demo03_point_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf_broadcaster_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf_broadcaster_uninstall-050e2967b0e33483dcbd.json",
+					"name" : "tf_broadcaster_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-29d34bd8c6fc7fbe4840.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wang/hello/build/tf_broadcaster",
+		"source" : "/home/wang/hello/src/tf_broadcaster"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

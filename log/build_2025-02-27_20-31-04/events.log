@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (-) JobUnselected: {'identifier': 'action'}
+[0.000283] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000756] (-) JobUnselected: {'identifier': 'my_urdf'}
+[0.000791] (-) JobUnselected: {'identifier': 'param'}
+[0.000818] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000965] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000998] (-) JobUnselected: {'identifier': 'service'}
+[0.001078] (-) JobUnselected: {'identifier': 'some_launch'}
+[0.001113] (-) JobUnselected: {'identifier': 'topic'}
+[0.001139] (tf_broadcaster) JobQueued: {'identifier': 'tf_broadcaster', 'dependencies': OrderedDict()}
+[0.001165] (tf_broadcaster) JobStarted: {'identifier': 'tf_broadcaster'}
+[0.005467] (tf_broadcaster) JobProgress: {'identifier': 'tf_broadcaster', 'progress': 'cmake'}
+[0.005799] (tf_broadcaster) JobProgress: {'identifier': 'tf_broadcaster', 'progress': 'build'}
+[0.006277] (tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wang/hello/build/tf_broadcaster', '--', '-j16', '-l16'], 'cwd': '/home/wang/hello/build/tf_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'wang'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wang'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wang/hello/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/wang/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-cd29ff8a53692911.txt'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1264'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1419'), ('BUNDLED_DEBUGPY_PATH', '/home/wang/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16688'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wang/hello/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wang'), ('JOURNAL_STREAM', '8:15001'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/wang/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/wang-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1386,unix/wang-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1386'), ('INVOCATION_ID', 'ffc95c8e5fa245f59959bbd23a7f400f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A5EI22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b08e3e5545.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wang/hello/src/install/tf_broadcaster:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wang/hello/build/tf_broadcaster'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wang/hello/src/install/tf_broadcaster:/opt/ros/humble')]), 'shell': False}
+[0.049038] (tf_broadcaster) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o\x1b[0m\n'}
+[0.054064] (tf_broadcaster) StdoutLine: {'line': b'[ 75%] Built target demo01_static_tf_broadcaster\n'}
+[0.099451] (-) TimerEvent: {}
+[0.199778] (-) TimerEvent: {}
+[0.300120] (-) TimerEvent: {}
+[0.400456] (-) TimerEvent: {}
+[0.500863] (-) TimerEvent: {}
+[0.601185] (-) TimerEvent: {}
+[0.701536] (-) TimerEvent: {}
+[0.801896] (-) TimerEvent: {}
+[0.902231] (-) TimerEvent: {}
+[1.002559] (-) TimerEvent: {}
+[1.102868] (-) TimerEvent: {}
+[1.203214] (-) TimerEvent: {}
+[1.303556] (-) TimerEvent: {}
+[1.403924] (-) TimerEvent: {}
+[1.504269] (-) TimerEvent: {}
+[1.604490] (-) TimerEvent: {}
+[1.704751] (-) TimerEvent: {}
+[1.804984] (-) TimerEvent: {}
+[1.905276] (-) TimerEvent: {}
+[2.005532] (-) TimerEvent: {}
+[2.105818] (-) TimerEvent: {}
+[2.206048] (-) TimerEvent: {}
+[2.306274] (-) TimerEvent: {}
+[2.406530] (-) TimerEvent: {}
+[2.506764] (-) TimerEvent: {}
+[2.607008] (-) TimerEvent: {}
+[2.707252] (-) TimerEvent: {}
+[2.807551] (-) TimerEvent: {}
+[2.907793] (-) TimerEvent: {}
+[3.008068] (-) TimerEvent: {}
+[3.108299] (-) TimerEvent: {}
+[3.208573] (-) TimerEvent: {}
+[3.308828] (-) TimerEvent: {}
+[3.409124] (-) TimerEvent: {}
+[3.509383] (-) TimerEvent: {}
+[3.609638] (-) TimerEvent: {}
+[3.709988] (-) TimerEvent: {}
+[3.810228] (-) TimerEvent: {}
+[3.910453] (-) TimerEvent: {}
+[4.010698] (-) TimerEvent: {}
+[4.110977] (-) TimerEvent: {}
+[4.211233] (-) TimerEvent: {}
+[4.311517] (-) TimerEvent: {}
+[4.411735] (-) TimerEvent: {}
+[4.511975] (-) TimerEvent: {}
+[4.612270] (-) TimerEvent: {}
+[4.712513] (-) TimerEvent: {}
+[4.812736] (-) TimerEvent: {}
+[4.912949] (-) TimerEvent: {}
+[5.013292] (-) TimerEvent: {}
+[5.113562] (-) TimerEvent: {}
+[5.213873] (-) TimerEvent: {}
+[5.314184] (-) TimerEvent: {}
+[5.414454] (-) TimerEvent: {}
+[5.514723] (-) TimerEvent: {}
+[5.543655] (tf_broadcaster) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo02_dynamic_tf_broadcaster\x1b[0m\n'}
+[5.614812] (-) TimerEvent: {}
+[5.715067] (-) TimerEvent: {}
+[5.815302] (-) TimerEvent: {}
+[5.835324] (tf_broadcaster) StdoutLine: {'line': b'[100%] Built target demo02_dynamic_tf_broadcaster\n'}
+[5.845885] (tf_broadcaster) CommandEnded: {'returncode': 0}
+[5.846735] (tf_broadcaster) JobProgress: {'identifier': 'tf_broadcaster', 'progress': 'install'}
+[5.858242] (tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wang/hello/build/tf_broadcaster'], 'cwd': '/home/wang/hello/build/tf_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'wang'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wang'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wang/hello/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/wang/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-cd29ff8a53692911.txt'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1264'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1419'), ('BUNDLED_DEBUGPY_PATH', '/home/wang/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16688'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wang/hello/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wang'), ('JOURNAL_STREAM', '8:15001'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/wang/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/wang-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/1386,unix/wang-Legion-Y7000P-IRH8:/tmp/.ICE-unix/1386'), ('INVOCATION_ID', 'ffc95c8e5fa245f59959bbd23a7f400f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A5EI22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b08e3e5545.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wang/hello/src/install/tf_broadcaster:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wang/hello/build/tf_broadcaster'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wang/hello/src/install/tf_broadcaster:/opt/ros/humble')]), 'shell': False}
+[5.868680] (tf_broadcaster) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.868848] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/lib/tf_broadcaster/demo01_static_tf_broadcaster\n'}
+[5.869492] (tf_broadcaster) StdoutLine: {'line': b'-- Set runtime path of "/home/wang/hello/install/tf_broadcaster/lib/tf_broadcaster/demo01_static_tf_broadcaster" to ""\n'}
+[5.869652] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/lib/tf_broadcaster/demo02_dynamic_tf_broadcaster\n'}
+[5.871619] (tf_broadcaster) StdoutLine: {'line': b'-- Set runtime path of "/home/wang/hello/install/tf_broadcaster/lib/tf_broadcaster/demo02_dynamic_tf_broadcaster" to ""\n'}
+[5.871714] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/tf_broadcaster\n'}
+[5.871804] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/tf_broadcaster\n'}
+[5.871845] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/environment/ament_prefix_path.sh\n'}
+[5.871898] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/environment/ament_prefix_path.dsv\n'}
+[5.871986] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/environment/path.sh\n'}
+[5.872069] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/environment/path.dsv\n'}
+[5.872126] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/local_setup.bash\n'}
+[5.872166] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/local_setup.sh\n'}
+[5.872204] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/local_setup.zsh\n'}
+[5.872272] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/local_setup.dsv\n'}
+[5.872341] (tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/package.dsv\n'}
+[5.872378] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/ament_index/resource_index/packages/tf_broadcaster\n'}
+[5.872446] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/cmake/tf_broadcasterConfig.cmake\n'}
+[5.872481] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/cmake/tf_broadcasterConfig-version.cmake\n'}
+[5.872512] (tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/wang/hello/install/tf_broadcaster/share/tf_broadcaster/package.xml\n'}
+[5.873930] (tf_broadcaster) CommandEnded: {'returncode': 0}
+[5.885963] (tf_broadcaster) JobEnded: {'identifier': 'tf_broadcaster', 'rc': 0}
+[5.886615] (-) EventReactorShutdown: {}

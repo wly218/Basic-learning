@@ -1,0 +1,48 @@
+[0.008s] Invoking command in '/home/wang/hello/build/tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/tf_listener -- -j16 -l16
+[0.029s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.131s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.149s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.151s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.154s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.161s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.189s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.190s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.268s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.299s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.309s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.360s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.404s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.404s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/wang/hello/src/tf_listener/include>
+[0.404s] -- Configured cppcheck exclude dirs and/or files: 
+[0.404s] -- Added test 'lint_cmake' to check CMake code style
+[0.405s] -- Added test 'uncrustify' to check C / C++ code style
+[0.405s] -- Configured uncrustify additional arguments: 
+[0.405s] -- Added test 'xmllint' to check XML markup files
+[0.405s] -- Configuring done
+[0.412s] -- Generating done
+[0.414s] -- Build files have been written to: /home/wang/hello/build/tf_listener
+[0.449s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o[0m
+[5.690s] [100%] [32m[1mLinking CXX executable demo01_tf_listener[0m
+[5.978s] [100%] Built target demo01_tf_listener
+[5.989s] Invoked command in '/home/wang/hello/build/tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wang/hello/build/tf_listener -- -j16 -l16
+[5.998s] Invoking command in '/home/wang/hello/build/tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/tf_listener
+[6.003s] -- Install configuration: ""
+[6.003s] -- Installing: /home/wang/hello/install/tf_listener/lib/tf_listener/demo01_tf_listener
+[6.006s] -- Set runtime path of "/home/wang/hello/install/tf_listener/lib/tf_listener/demo01_tf_listener" to ""
+[6.006s] -- Up-to-date: /home/wang/hello/install/tf_listener/share/ament_index/resource_index/package_run_dependencies/tf_listener
+[6.006s] -- Installing: /home/wang/hello/install/tf_listener/share/ament_index/resource_index/parent_prefix_path/tf_listener
+[6.006s] -- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/environment/ament_prefix_path.sh
+[6.006s] -- Installing: /home/wang/hello/install/tf_listener/share/tf_listener/environment/ament_prefix_path.dsv
+[6.006s] -- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/environment/path.sh
+[6.006s] -- Installing: /home/wang/hello/install/tf_listener/share/tf_listener/environment/path.dsv
+[6.006s] -- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/local_setup.bash
+[6.007s] -- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/local_setup.sh
+[6.007s] -- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/local_setup.zsh
+[6.007s] -- Installing: /home/wang/hello/install/tf_listener/share/tf_listener/local_setup.dsv
+[6.007s] -- Installing: /home/wang/hello/install/tf_listener/share/tf_listener/package.dsv
+[6.008s] -- Up-to-date: /home/wang/hello/install/tf_listener/share/ament_index/resource_index/packages/tf_listener
+[6.009s] -- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/cmake/tf_listenerConfig.cmake
+[6.009s] -- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/cmake/tf_listenerConfig-version.cmake
+[6.010s] -- Up-to-date: /home/wang/hello/install/tf_listener/share/tf_listener/package.xml
+[6.010s] Invoked command in '/home/wang/hello/build/tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wang/hello/build/tf_listener
